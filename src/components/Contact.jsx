@@ -93,7 +93,7 @@ export default function Contact({ isDarkMode }) {
                 },
                 {
                   q: 'Do you offer maintenance and support after project completion?',
-                  a: 'Yes, He offers ongoing maintenance and support packages to ensure your digital product remains up-to-date and runs smoothly.',
+                  a: 'Yes, He offers ongoing maintenance and support to ensure your digital product remains up-to-date and runs smoothly.',
                 },
                 {
                   q: 'Can you work with my existing team?',
