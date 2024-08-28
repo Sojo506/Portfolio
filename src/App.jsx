@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import Header from './components/Header';
 import Hero from './components/Hero';
-
+import Contact from './components/Contact';
 
 function App() {
   const [isDarkMode, setIsDarkMode] = useState(true);
@@ -39,7 +39,11 @@ function App() {
   };
 
   return (
-    <>
+    <div
+      className={`min-h-screen ${
+        isDarkMode ? 'bg-gray-900 text-gray-100' : 'bg-gray-100 text-gray-900'
+      }`}
+    >
       <Header
         isDarkMode={isDarkMode}
         toggleDarkMode={toggleDarkMode}
@@ -54,10 +58,10 @@ function App() {
         }`}
       >
         <h2 className='text-3xl font-bold mb-4'>Contact</h2>
-        {/* <ContactForm isDarkMode={isDarkMode} /> */}
+        <Contact isDarkMode={isDarkMode} />
       </section>
       {/* <Footer isDarkMode={isDarkMode} /> */}
-    </>
+    </div>
   );
 }
 export default App;
