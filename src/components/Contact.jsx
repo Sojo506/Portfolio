@@ -97,7 +97,7 @@ export default function Contact({ isDarkMode }) {
                 },
                 {
                   q: 'Can you work with my existing team?',
-                  a: 'He is experienced in collaborating with in-house teams and can adapt to your existing workflows.',
+                  a: 'He is experienced in collaborating with teams and can adapt to your existing workflows.',
                 },
               ].map((faq, index) => (
                 <div
