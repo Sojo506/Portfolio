@@ -57,15 +57,7 @@ function App() {
       <About isDarkMode={isDarkMode} />
       <Projects isDarkMode={isDarkMode} />
       <Technologies isDarkMode={isDarkMode} />
-      <section
-        id='contact'
-        className={`container mx-auto py-16 ${
-          isDarkMode ? 'text-white' : 'text-gray-900'
-        }`}
-      >
-        <h2 className='text-3xl font-bold mb-4'>Contact</h2>
-        <Contact isDarkMode={isDarkMode} />
-      </section>
+      <Contact isDarkMode={isDarkMode} />
       {/* <Footer isDarkMode={isDarkMode} /> */}
     </div>
   );
