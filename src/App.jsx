@@ -18,7 +18,7 @@ function App() {
         const element = document.getElementById(section);
         if (element) {
           const rect = element.getBoundingClientRect();
-          return rect.top <= 100 && rect.bottoam >= 100;
+          return rect.top <= 100 && rect.bottom >= 100;
         }
         return false;
       });
@@ -36,6 +36,7 @@ function App() {
     if (element) {
       element.scrollIntoView({ behavior: 'smooth' });
     }
+    setActiveSection(element.id);
   };
 
   const toggleDarkMode = () => {
