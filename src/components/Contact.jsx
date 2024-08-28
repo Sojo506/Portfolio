@@ -18,8 +18,13 @@ export default function Contact({ isDarkMode }) {
           Contact_
         </h2>
         <div className='grid md:grid-cols-2 gap-8'>
-          <form className='space-y-4'>
+          <form
+            className='space-y-4'
+            action='https://formspree.io/f/xdknblpg'
+            method='POST'
+          >
             <Input
+              name='name'
               placeholder='Name'
               className={`${
                 isDarkMode ? 'bg-gray-800 text-white' : 'bg-white text-gray-900'
@@ -27,12 +32,14 @@ export default function Contact({ isDarkMode }) {
             />
             <Input
               type='email'
+              name='email'
               placeholder='Email'
               className={`${
                 isDarkMode ? 'bg-gray-800 text-white' : 'bg-white text-gray-900'
               } border-green-400`}
             />
             <Textarea
+              name='message'
               placeholder='Message'
               className={`${
                 isDarkMode ? 'bg-gray-800 text-white' : 'bg-white text-gray-900'
@@ -57,7 +64,7 @@ export default function Contact({ isDarkMode }) {
                   isDarkMode ? 'text-green-400' : 'text-green-600'
                 }`}
               />
-              <span>fsojodev@gmail.com</span>
+              <a href='mailto:fsojodev@gmail.com'>fsojodev@gmail.com</a>
             </div>
             <div className='flex items-center space-x-2'>
               <Phone
@@ -65,7 +72,7 @@ export default function Contact({ isDarkMode }) {
                   isDarkMode ? 'text-green-400' : 'text-green-600'
                 }`}
               />
-              <span>+506 87947110</span>
+              <a href='tel:+50687947110'>+506 87947110</a>
             </div>
           </div>
         </div>
