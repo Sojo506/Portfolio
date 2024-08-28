@@ -29,7 +29,7 @@ export default function Projects({ isDarkMode }) {
                 alt={project.name}
                 width={400}
                 height={200}
-                className='w-full h-48 object-cover'
+                className='w-full h-auto max-w-full rounded-lg shadow-lg object-cover'
               />
               <div className='p-4'>
                 <h3
