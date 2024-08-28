@@ -1,4 +1,4 @@
-import { Github, Instagram, Linkedin } from 'lucide-react';
+import { Github, Instagram, Linkedin, Mail, PaintRoller } from 'lucide-react';
 
 export default function About({ isDarkMode }) {
   return (
@@ -32,31 +32,31 @@ export default function About({ isDarkMode }) {
               &gt; Initializing SojoDev profile...
             </p>
             <p className='mb-4'>
-              &gt; Name: John Doe
+              &gt; Name: Fabián Sojo Mejías
               <br />
-              &gt; Occupation: Full-Stack Developer
+              &gt; Occupation: Freelance
               <br />
-              &gt; Experience: 5+ years
+              &gt; Experience: 204 No Content
               <br />
-              &gt; Specialization: Web Applications
+              &gt; Specialization: Web Applications - Backend
             </p>
             <p className='mb-4'>
-              &gt; Skills loaded: React.js, Vue.js, Node.js, Python
+              &gt; Skills loaded: Java, JavaScript, Node.js, React.js...
               <br />
-              &gt; Passion: Creating pixel-perfect, user-friendly interfaces
+              &gt; Passion: Building robust, scalable server-side solutions.
               <br />
-              &gt; Mission: Transforming ideas into digital reality
+              &gt; Mission: Learn everyday.
             </p>
             <p
               className={`animate-pulse ${
                 isDarkMode ? 'text-green-400' : 'text-green-600'
               }`}
             >
-              &gt; Status: Ready to code your next big project_
+              &gt; Status: Ready to code your next idea_
             </p>
             <div className='flex justify-start space-x-4 mt-4'>
               <a
-                href='https://github.com/sojodev'
+                href='https://github.com/Sojo506'
                 target='_blank'
                 rel='noopener noreferrer'
               >
@@ -69,7 +69,20 @@ export default function About({ isDarkMode }) {
                 />
               </a>
               <a
-                href='https://aedin.com/in/sojodev'
+                href='https://www.frontendmentor.io/profile/Sojo506/solutions'
+                target='_blank'
+                rel='noopener noreferrer'
+              >
+                <PaintRoller
+                  className={`h-6 w-6 ${
+                    isDarkMode
+                      ? 'text-green-400 hover:text-white'
+                      : 'text-green-600 hover:text-gray-900'
+                  } transition-colors`}
+                />
+              </a>
+              <a
+                href='https://www.linkedin.com/in/fsojodev/'
                 target='_blank'
                 rel='noopener noreferrer'
               >
@@ -82,7 +95,7 @@ export default function About({ isDarkMode }) {
                 />
               </a>
               <a
-                href='https://instagram.com/sojodev'
+                href='https://www.instagram.com/theboy_sojo/'
                 target='_blank'
                 rel='noopener noreferrer'
               >
@@ -94,11 +107,24 @@ export default function About({ isDarkMode }) {
                   } transition-colors`}
                 />
               </a>
+              <a
+                href='mailto:fsojodev@gmail.com'
+                target='_blank'
+                rel='noopener noreferrer'
+              >
+                <Mail
+                  className={`h-6 w-6 ${
+                    isDarkMode
+                      ? 'text-green-400 hover:text-white'
+                      : 'text-green-600 hover:text-gray-900'
+                  } transition-colors`}
+                />
+              </a>
             </div>
           </div>
           <div className='flex justify-center'>
             <img
-              src='/placeholder.svg?height=300&width=300&text=John+Doe'
+              src='/programador.jpg'
               alt='John Doe'
               width={300}
               height={300}
