@@ -13,7 +13,7 @@ export default function Hero({ isDarkMode, scrollTo }) {
       </div>
       <div className="relative z-10 text-center">
         <h2 className={`text-6xl md:text-8xl font-bold mb-4 ${isDarkMode ? 'text-green-400' : 'text-green-600'}`}>SojoDev_</h2>
-        <p className="text-xl md:text-2xl mb-8">Crafting Digital Experiences</p>
+        <p className="text-xl md:text-2xl mb-8 max-w-96 px-1 sm:px-0">Building robust, scalable server-side solutions & Crafting Digital Experiences</p>
         <Button onClick={() => scrollTo("contact")} className={`${isDarkMode ? 'bg-green-400 text-purple-900' : 'bg-green-600 text-purple-100'} hover:bg-opacity-80`}>
           Initialize Contact_
         </Button>
