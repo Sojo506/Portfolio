@@ -36,7 +36,7 @@ export default function About({ isDarkMode }) {
               <br />
               &gt; Occupation: Freelance
               <br />
-              &gt; Experience: 204 No Content
+              &gt; Experience: +1 year
               <br />
               &gt; Specialization: Web Applications - Backend
             </p>
