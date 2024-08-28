@@ -64,7 +64,7 @@ export default function Header({
 
       {isMenuOpen && (
         <div
-          className={`fixed inset-0 z-30 ${
+          className={`fixed left-0 right-0 bottom-0 top-16 z-30 ${
             isDarkMode ? 'bg-purple-800' : 'bg-purple-200'
           }`}
         >
