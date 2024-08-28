@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import Header from './components/Header';
+import Hero from './components/Hero';
 
 
 function App() {
@@ -45,7 +46,7 @@ function App() {
         activeSection={activeSection}
         scrollTo={scrollTo}
       />
-      {/* <Hero isDarkMode={isDarkMode} scrollTo={scrollTo} /> */}
+      <Hero isDarkMode={isDarkMode} scrollTo={scrollTo} />
       <section
         id='contact'
         className={`container mx-auto py-16 ${
