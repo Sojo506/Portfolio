@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import Header from './components/Header';
 import Hero from './components/Hero';
 import Contact from './components/Contact';
+import About from './components/About';
 
 function App() {
   const [isDarkMode, setIsDarkMode] = useState(true);
@@ -14,7 +15,7 @@ function App() {
         const element = document.getElementById(section);
         if (element) {
           const rect = element.getBoundingClientRect();
-          return rect.top <= 100 && rect.bottom >= 100;
+          return rect.top <= 100 && rect.bottoam >= 100;
         }
         return false;
       });
@@ -51,6 +52,7 @@ function App() {
         scrollTo={scrollTo}
       />
       <Hero isDarkMode={isDarkMode} scrollTo={scrollTo} />
+      <About isDarkMode={isDarkMode} />
       <section
         id='contact'
         className={`container mx-auto py-16 ${
