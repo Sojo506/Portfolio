@@ -3,6 +3,7 @@ import Header from './components/Header';
 import Hero from './components/Hero';
 import Contact from './components/Contact';
 import About from './components/About';
+import Projects from './components/Projects';
 
 function App() {
   const [isDarkMode, setIsDarkMode] = useState(true);
@@ -53,6 +54,7 @@ function App() {
       />
       <Hero isDarkMode={isDarkMode} scrollTo={scrollTo} />
       <About isDarkMode={isDarkMode} />
+      <Projects isDarkMode={isDarkMode} />
       <section
         id='contact'
         className={`container mx-auto py-16 ${
