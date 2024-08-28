@@ -12,6 +12,11 @@ const technologies = [
   'Express',
   'MongoDB',
   'PostgresSQL',
+  'Postman',
+  'Nodemailer',
+  'JWT',
+  'Auth0',
+  'Git',
 ];
 
 export default technologies;
