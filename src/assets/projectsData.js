@@ -1,5 +1,12 @@
 const projectsData = [
   {
+    name: 'Veterinary_Patient_Administrator',
+    image: '/vpa.png',
+    description: 'A full stack project. Frontend - Backend - Admin Panel.',
+    github: 'https://github.com/Sojo506/vpa_frontend',
+    livepreview: 'https://vpa-frontend.vercel.app/',
+  },
+  {
     name: 'Food_Del',
     image: '/food-del.png',
     description: 'A full stack project. Frontend - Backend - Admin Panel.',
@@ -12,22 +19,6 @@ const projectsData = [
     description: 'A full stack project. Frontend - Backend - Admin Panel.',
     github: 'https://github.com/Sojo506/front-food-del',
     livepreview: 'https://www.youtube.com/watch?v=Q5lRYMJ8aM0&t',
-  },
-
-  {
-    name: 'Pokemon',
-    image: '/pokemon.png',
-    description: 'A full stack project. Frontend - Backend.',
-    github: 'https://github.com/Sojo506/Pokemon-Project?tab=readme-ov-file',
-    livepreview:
-      'https://pokemon-project-lovat.vercel.app/home',
-  },
-  {
-    name: 'Veterinary_Patient_Administrator',
-    image: '/vpa.png',
-    description: 'A full stack project. Frontend - Backend - Admin Panel.',
-    github: 'https://github.com/Sojo506/vpa_frontend',
-    livepreview: 'https://vpa-frontend.vercel.app/',
   },
   {
     name: 'Edusity_Landing',
@@ -44,6 +35,13 @@ const projectsData = [
       'https://github.com/Sojo506/oracle-one-alura-latam-encryption-challenge',
     livepreview:
       'https://sojo506.github.io/oracle-one-alura-latam-encryption-challenge/',
+  },
+  {
+    name: 'Pokemon',
+    image: '/pokemon.png',
+    description: 'A full stack project. Frontend - Backend.',
+    github: 'https://github.com/Sojo506/Pokemon-Project?tab=readme-ov-file',
+    livepreview: 'https://pokemon-project-lovat.vercel.app/home',
   },
 ];
 
