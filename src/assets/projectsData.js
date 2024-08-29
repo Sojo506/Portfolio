@@ -20,7 +20,7 @@ const projectsData = [
     description: 'A full stack project. Frontend - Backend.',
     github: 'https://github.com/Sojo506/Pokemon-Project?tab=readme-ov-file',
     livepreview:
-      'https://pokemon-project-ijsqi6lut-sojo506s-projects.vercel.app/',
+      'https://pokemon-project-lovat.vercel.app/home',
   },
   {
     name: 'Veterinary_Patient_Administrator',
