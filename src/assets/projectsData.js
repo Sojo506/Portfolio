@@ -8,7 +8,7 @@ const projectsData = [
   },
   {
     name: 'Lazy_buy',
-    image: '',
+    image: '/lazy.jpg',
     description: 'A full stack project. Frontend - Backend - Admin Panel.',
     github: 'https://github.com/Sojo506/front-food-del',
     livepreview: 'https://www.youtube.com/watch?v=Q5lRYMJ8aM0&t',
