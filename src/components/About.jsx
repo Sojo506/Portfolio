@@ -124,7 +124,7 @@ export default function About({ isDarkMode }) {
           </div>
           <div className='flex justify-center'>
             <img
-              src='/programador.jpg'
+              src='/morty.jpg'
               alt='John Doe'
               width={300}
               height={300}
