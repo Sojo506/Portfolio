@@ -29,7 +29,7 @@ export default function About({ isDarkMode }) {
                 isDarkMode ? 'text-green-400' : 'text-green-600'
               }`}
             >
-              &gt; Initializing SojoDev profile...
+              &gt; Initializing Sojo506 profile...
             </p>
             <p className='mb-4'>
               &gt; Name: Fabián Sojo Mejías
@@ -82,7 +82,7 @@ export default function About({ isDarkMode }) {
                 />
               </a>
               <a
-                href='https://www.linkedin.com/in/fsojodev/'
+                href='https://www.linkedin.com/in/fSojo506/'
                 target='_blank'
                 rel='noopener noreferrer'
               >
@@ -108,7 +108,7 @@ export default function About({ isDarkMode }) {
                 />
               </a>
               <a
-                href='mailto:fsojodev@gmail.com'
+                href='mailto:fSojo506@gmail.com'
                 target='_blank'
                 rel='noopener noreferrer'
               >

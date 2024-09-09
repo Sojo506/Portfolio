@@ -34,7 +34,7 @@ export default function Hero({ isDarkMode, scrollTo }) {
             isDarkMode ? 'text-green-400' : 'text-green-600'
           }`}
         >
-          SojoDev<span className='animate-pulse'>_</span>
+          Sojo506<span className='animate-pulse'>_</span>
         </h2>
         <p className='text-xl md:text-2xl mb-8 max-w-96 px-1 sm:px-0'>
           Building robust, scalable server-side solutions & Crafting Digital

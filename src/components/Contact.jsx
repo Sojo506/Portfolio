@@ -84,8 +84,8 @@ export default function Contact({ isDarkMode }) {
             <div className='space-y-4'>
               {[
                 {
-                  q: 'What services does SojoDev offer?',
-                  a: 'SojoDev specializes in backend development and custom web solutions, focusing on full-stack web development and delivering tailored software solutions.',
+                  q: 'What services does Sojo506 offer?',
+                  a: 'Sojo506 specializes in backend development and custom web solutions, focusing on full-stack web development and delivering tailored software solutions.',
                 },
                 {
                   q: 'How long does a typical project take?',
@@ -126,7 +126,7 @@ export default function Contact({ isDarkMode }) {
                   isDarkMode ? 'text-green-400' : 'text-green-600'
                 }`}
               />
-              <a href='mailto:fsojodev@gmail.com'>fsojodev@gmail.com</a>
+              <a href='mailto:fSojo506@gmail.com'>fSojo506@gmail.com</a>
             </div>
             <div className='flex items-center space-x-2'>
               <Phone

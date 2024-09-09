@@ -24,7 +24,7 @@ export default function Header({
             isDarkMode ? 'text-green-400' : 'text-green-600'
           }`}
         >
-          SojoDev_
+          Sojo506
         </h1>
         <nav className='hidden md:flex space-x-4 items-center'>
           {sections.map((item) => (
