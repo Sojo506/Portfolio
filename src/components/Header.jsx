@@ -10,7 +10,7 @@ export default function Header({
 }) {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
-  const sections = ['Home', 'About', 'Projects', 'Technologies', 'Contact'];
+  const sections = ['Home', 'About', 'Projects', 'Landings', 'Technologies', 'Contact'];
 
   return (
     <header

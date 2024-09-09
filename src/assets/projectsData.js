@@ -21,22 +21,6 @@ const projectsData = [
     livepreview: 'https://www.youtube.com/watch?v=Q5lRYMJ8aM0&t',
   },
   {
-    name: 'Edusity_Landing',
-    image: '/edusity.png',
-    description: 'A landing page about a college.',
-    github: 'https://github.com/Sojo506/edusity',
-    livepreview: 'https://edusity-project-zeta.vercel.app/',
-  },
-  {
-    name: 'Encryptor',
-    image: '/encryptor.png',
-    description: 'An encryptor page.',
-    github:
-      'https://github.com/Sojo506/oracle-one-alura-latam-encryption-challenge',
-    livepreview:
-      'https://sojo506.github.io/oracle-one-alura-latam-encryption-challenge/',
-  },
-  {
     name: 'Pokemon',
     image: '/pokemon.png',
     description: 'A full stack project. Frontend - Backend.',

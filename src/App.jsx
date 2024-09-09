@@ -6,6 +6,7 @@ import About from './components/About';
 import Projects from './components/Projects';
 import Technologies from './components/Technologies';
 import Footer from './components/Footer';
+import Landings from './components/Landings';
 
 function App() {
   const [isDarkMode, setIsDarkMode] = useState(true);
@@ -13,7 +14,7 @@ function App() {
 
   useEffect(() => {
     const handleScroll = () => {
-      const sections = ['home', 'about', 'projects', 'technologies', 'contact'];
+      const sections = ['home', 'about', 'projects', 'landings', 'technologies', 'contact'];
       const currentSection = sections.find((section) => {
         const element = document.getElementById(section);
         if (element) {
@@ -58,6 +59,7 @@ function App() {
       <Hero isDarkMode={isDarkMode} scrollTo={scrollTo} />
       <About isDarkMode={isDarkMode} />
       <Projects isDarkMode={isDarkMode} />
+      <Landings isDarkMode={isDarkMode} />
       <Technologies isDarkMode={isDarkMode} />
       <Contact isDarkMode={isDarkMode} />
       <Footer isDarkMode={isDarkMode} />
